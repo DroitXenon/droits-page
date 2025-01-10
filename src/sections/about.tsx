@@ -1,4 +1,4 @@
-// import CoolPortraitCard from "@/components/cool-portrait-card";
+import CoolPortraitCard from "@/components/cool-portrait-card";
 import MotionDiv from "@/components/motion-div";
 
 export default function about() {
@@ -31,13 +31,13 @@ export default function about() {
       </div>
       <div className="lg:order-2 lg:w-1/3">
         <MotionDiv delayOffset={0.4}>
-          {/* <CoolPortraitCard className="hidden lg:block">
+          <CoolPortraitCard className="hidden lg:block">
             <img
               src="/photo.jpeg"
               alt="photo"
               className="w-[300px] min-w-[300px] rounded-xl transition-all"
             />
-          </CoolPortraitCard> */}
+          </CoolPortraitCard>
         </MotionDiv>
         <MotionDiv delayOffset={0.4}>
           <img
