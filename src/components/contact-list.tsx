@@ -3,6 +3,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faGithub,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";
 import { Button } from "@/components/ui/button";
@@ -27,16 +28,22 @@ const contacts: Contact[] = [
     icon: faGithub,
   },
   {
-    name: "Instagram",
+    name: "Linkedin",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://instagram.com/alt2ss/",
-    icon: faInstagram,
+    href: "https://www.linkedin.com/in/juntaojustinwang/",
+    icon: faLinkedin,
   },
   {
     name: "Email",
     className: "bg-black hover:bg-gray-800/90",
     href: "mailto:droitxenon@outlook.com",
     icon: faEnvelope,
+  },
+  {
+    name: "Instagram",
+    className: "bg-black hover:bg-gray-800/90",
+    href: "https://instagram.com/alt2ss/",
+    icon: faInstagram,
   },
 ];
 export default function ContactList({
