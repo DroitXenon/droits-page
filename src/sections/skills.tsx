@@ -53,54 +53,18 @@ export default function skills() {
     {
       title: "Languages",
       skills: [
-        {
-          name: "C++",
-          icon: cppIcon,
-        },
-        {
-          name: "C",
-          icon: cIcon,
-        },
-        {
-          name: "C#",
-          icon: csharpIcon,
-        },
-        {
-          name: "Python",
-          icon: pythonIcon,
-        },
-        {
-          name: "Java",
-          icon: javaIcon,
-        },
-        {
-          name: "Swift",
-          icon: swiftIcon,
-        },
-        {
-          name: "TypeScript",
-          icon: typescriptIcon,
-        },
-        {
-          name: "JavaScript",
-          icon: javascriptIcon,
-        },
-        {
-          name: "R",
-          icon: rLangIcon,
-        },
-        {
-          name: "Kotlin",
-          icon: kotlinIcon,
-        },
-        {
-          name: "Lua",
-          icon: luaIcon,
-        },
-        {
-          name: "Lisp",
-          icon: lispIcon,
-        },       
+        { name: "C++", icon: cppIcon },
+        { name: "C", icon: cIcon },
+        { name: "C#", icon: csharpIcon },
+        { name: "Python", icon: pythonIcon },
+        { name: "Java", icon: javaIcon },
+        { name: "Swift", icon: swiftIcon },
+        { name: "TypeScript", icon: typescriptIcon },
+        { name: "JavaScript", icon: javascriptIcon },
+        { name: "R", icon: rLangIcon },
+        { name: "Kotlin", icon: kotlinIcon },
+        { name: "Lua", icon: luaIcon },
+        { name: "Lisp", icon: lispIcon,},       
       ],
     },
     {
