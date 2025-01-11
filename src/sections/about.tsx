@@ -14,18 +14,22 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Justin Wang. A human.
+              Hello, my name is Justin Wang. A human.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
             <p>
-              Para 1
+              I’m a software developer and electronics enthusiast, studying at the University of Waterloo. I’m majoring in Combinatorics and Optimization, Computational Mathematics, and Computer Science—basically, a mix of math and tech that keeps me on my toes.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.6}>
             <p>
-              Para 2
+              Outside of school, I’m all about creating. I enjoy building my own software, tinkering with hardware, and combining the two to make cool projects. There’s just something satisfying about bringing an idea to life, whether it’s coding up a new app or assembling something with my own hands. For me, it’s not just work—it’s something I genuinely enjoy doing.
             </p>
+          </MotionDiv>
+          <MotionDiv delayOffset={0.7}>
+            <p>
+              When I’m not immersed in tech, I love exploring new places and capturing moments through photography. Traveling gives me a fresh perspective, and there’s nothing quite like finding the perfect shot in a new environment. Photography also lets me slow down and appreciate the world around me.            </p>
           </MotionDiv>
         </article>
       </div>
