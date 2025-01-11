@@ -5,7 +5,7 @@ export default function about() {
   return (
     <section
       id="about"
-      className="mx-auto my-16 flex flex-col items-center justify-center gap-4 px-2 md:my-20  md:max-w-full lg:flex-row lg:items-start lg:gap-16"
+      className="py-20 mx-auto my-16 flex flex-col items-center justify-center gap-4 px-2 md:my-20  md:max-w-full lg:flex-row lg:items-start lg:gap-16"
     >
       <div className="order-2 lg:order-1 lg:w-2/3">
         <MotionDiv delayOffset={0.0}>
