@@ -73,6 +73,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  section {
+    overflow: hidden; /* Prevent internal scrolling in sections */
+  }
 }
 @font-face {
   font-family: "GoldenSignature";
@@ -110,4 +113,5 @@ h3 {
   .nav-links > *:hover::after {
     width: 100%;
   }
+  
 }
