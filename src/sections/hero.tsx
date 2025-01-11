@@ -1,5 +1,7 @@
 import MotionText from "@/components/motion-text";
 import MotionDiv from "@/components/motion-div";
+import ContactList from "@/components/contact-list";
+
 
 export default function hero() {
     return (
@@ -10,7 +12,7 @@ export default function hero() {
         <div className="overflow-hidden rounded-full p-3 md:p-4">
             <MotionDiv>
             <video
-                className="h-[250px] w-[250px] md:h-[270px] md:w-[270px]"
+                className="h-[180px] w-[250px] md:h-[200px] md:w-[270px]"
                 muted
                 autoPlay
                 loop
@@ -36,6 +38,9 @@ export default function hero() {
                 Just a human who loves coding and building cool stuff.
             </p>
             </MotionDiv>
+        </div>
+        <div className="my-8">
+            <ContactList delayOffset={1.45} showWhenInView={false} />
         </div>
         </section>
     );
